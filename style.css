@@ -4,15 +4,28 @@ body {
   font-family: 'JetBrains Mono', monospace;
 }
 
+.page {
+  width: 1280px;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 71px;
+  /* margin-top: 71px; */
 }
 
 ul {
   list-style: none;
+  display: flex;
+  padding: 0px;
+  gap: 64px;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  color: #00BFA6;
 }
 
 a {
@@ -20,11 +33,16 @@ a {
   text-decoration: none;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 h1 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 40px;
+  font-weight: normal;
   text-align: center;
   color: #FFFFFF;
 }
