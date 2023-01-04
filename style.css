@@ -13,7 +13,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 71px; */
+  margin-top: 71px;
 }
 
 ul {
@@ -34,6 +34,7 @@ a {
 }
 
 main {
+  border: #00BFA6 solid 1px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,6 +46,7 @@ h1 {
   font-weight: normal;
   text-align: center;
   color: #FFFFFF;
+  justify-content: end;
 }
 
 h1 span {
@@ -52,6 +54,7 @@ h1 span {
 }
 
 p {
+  border: #00BFA6 solid 1px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -59,6 +62,10 @@ p {
   line-height: 28px;
   text-align: center;
   color: #C2C2C2;
+}
+
+img {
+  justify-content: left;
 }
 
 footer {
