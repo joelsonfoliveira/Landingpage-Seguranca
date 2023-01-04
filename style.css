@@ -17,7 +17,6 @@ nav {
 }
 
 ul {
-  /* border: #00BFA6 solid 1px; */
   list-style: none;
   display: flex;
   padding: 0px;
@@ -35,16 +34,18 @@ a {
 }
 
 main {
-  /* border: #00BFA6 solid 1px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 80px;
+}
 
+main img {
+  width: 401px;
+  height: 283px;
 }
 
 h1 {
-  /* border: #00BFA6 solid 1px; */
   font-size: 36px;
   line-height: 40px;
   font-weight: normal;
@@ -58,7 +59,6 @@ h1 span {
 }
 
 p {
-  /* border: #00BFA6 solid 1px; */
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,11 @@ p {
   line-height: 28px;
   text-align: center;
   color: #C2C2C2;
+  height: 168px;
+  width: 604px;
 }
+
+
 
 footer {
   color: #FFFFFF;
