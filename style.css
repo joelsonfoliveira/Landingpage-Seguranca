@@ -2,7 +2,6 @@ body {
   background-color: #2C2B3D;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
-
 }
 
 nav {
@@ -10,6 +9,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 71px;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
