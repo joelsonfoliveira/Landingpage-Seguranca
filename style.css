@@ -7,11 +7,9 @@ body {
 .page {
   width: 1280px;
   margin: 0 auto;
-  border: #00BFA6 solid 1px;
 }
 
 nav {
-  border: #00BFA6 solid 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
