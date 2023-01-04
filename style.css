@@ -5,7 +5,7 @@ body {
 }
 
 .page {
-  width: 1280px;
+  width: 1088px;
   margin: 0 auto;
 }
 
@@ -86,11 +86,11 @@ footer {
   width: 568px;
   height: 0;
   border: 1px solid #00BFA6;
-  margin: 100px auto 8px;
+  margin: 90px auto 27px;
 }
 
 #padlock {
   position: fixed;
-  bottom: 0;
-  left: 0;
+  bottom: 20px;
+  left: 20px;
 }
