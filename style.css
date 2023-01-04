@@ -7,13 +7,20 @@ body {
 .page {
   width: 1280px;
   margin: 0 auto;
+  border: #00BFA6 solid 1px;
 }
 
 nav {
+  border: #00BFA6 solid 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 71px;
+}
+
+nav a {
+  width: 168px;
+  height: 23px;
 }
 
 ul {
@@ -36,7 +43,7 @@ a {
 main {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 80px;
 }
 
@@ -70,8 +77,6 @@ p {
   width: 604px;
 }
 
-
-
 footer {
   color: #FFFFFF;
   font-size: 14px;
@@ -83,7 +88,7 @@ footer {
   width: 568px;
   height: 0;
   border: 1px solid #00BFA6;
-  margin: 30px auto 8px;
+  margin: 100px auto 8px;
 }
 
 #padlock {
